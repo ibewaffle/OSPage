@@ -1,3 +1,11 @@
-Yo, Yo, Yo, Yo
-Yo this is the README all about how my Assignment got flipped turned upside down and I'd like to take a minute just sit right there
-AND LET ME SHOW YOU MY ALGORITHM
+Execute the simulation from this directory with the following command line. 
+
+java -cp bin Simulation
+
+If you want to alter the logging behaviour (e. g. to set the logging level from
+"INFO" to "FINE") use the following command line.
+
+java -cp bin -Djava.util.logging.config.file=logging.properties Simulation
+
+Note: Log level "FINE" is good for debugging, but produces *a lot* of output
+      and is therefore quite slow in execution.
