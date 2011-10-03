@@ -128,7 +128,7 @@ public class Simulation {
      */
     public PageReplacement getPageReplacementImpl(List<PageTableEntry> pageTable,
                                                   boolean[] memoryFrames) {
-        return new GuysRandomReplacement(pageTable, memoryFrames);
+        return new WarbiasReplacement(pageTable, memoryFrames);
     }
     
     /**
